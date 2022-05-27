@@ -26,6 +26,6 @@
 <h1>Your name: {name}</h1>
 <p>The maximum allowed length of a name is 5 characters, your name is {name.length} characters long</p>
 <p>Which is <b>{name.length <= 5 ? 'ACCEPTABLE' : 'UNACCEPTABLE'}</b></p>
-<button on:click="{function234(array3)}"></button>
+<button on:click="{function234(array3)}" style="border: 2px solid greenyellow;"> press this button for the secret numbers</button>
 <p>{array3}</p>
 <p>{arrayString}</p>
